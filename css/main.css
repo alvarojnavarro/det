@@ -14,10 +14,10 @@ nav {
 }
 /* SECTIONS */
 article {
-	margin: 10rem 0 4rem 0;
+	margin: 10rem 0 5rem 0;
 }
 .intro {
-	margin: 2rem 0;
+	margin: 0;
 }
 footer {
 	font-size: 0.8rem;
@@ -27,14 +27,12 @@ footer {
 .cta {
 	margin: 1rem 0;
 	border: 2px solid #1AFF68;
-	border-radius: 40px;
-	color: #1AFF68;
-}
-.cta-2 {
-	margin: 1rem 0;
-	border: 2px solid #1AFF68;
 	background-color: #1AFF68;
 	border-radius: 40px;
 	color: #001E50;
+	text-align: center;
 	font-weight: bold;
+}
+.nav-item .cta {
+	margin: 0;
 }
