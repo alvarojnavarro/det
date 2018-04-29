@@ -61,11 +61,27 @@ footer .container {
 
 /* COMPONENTS */
 .cta {
-	min-width: 150px;
+	min-width: 10px;
 	border: 2px solid #1AFF68;
 	background-color: #1AFF68;
 	border-radius: 40px;
 	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
+}
+nav .cta {
+	min-width: 150px;
+}
+/*FORM*/
+#lets-talk input[type="text"],
+#lets-talk input[type="number"],
+#lets-talk textarea {
+	width: 100%;
+	border: 1px solid #001E50;
+}
+#lets-talk input[type="text"]:focus,
+#lets-talk input[type="number"]:focus,
+#lets-talk textarea:focus {
+	outline: none;
+	border: 1px solid #1AFF68;
 }
