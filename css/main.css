@@ -58,7 +58,6 @@ footer {
 footer .container {
 	padding: 2rem 0;
 }
-
 /* COMPONENTS */
 .cta {
 	min-width: 10px;
@@ -74,14 +73,22 @@ nav .cta {
 }
 /*FORM*/
 #lets-talk input[type="text"],
-#lets-talk input[type="number"],
+#lets-talk input[type="email"],
 #lets-talk textarea {
-	width: 100%;
 	border: 1px solid #001E50;
 }
 #lets-talk input[type="text"]:focus,
-#lets-talk input[type="number"]:focus,
+#lets-talk input[type="email"]:focus,
 #lets-talk textarea:focus {
+	box-shadow: none;
 	outline: none;
 	border: 1px solid #1AFF68;
+}
+.with-errors {
+	font-size: 0.8rem;
+	color: red;
+}
+p.disclaimer {
+	font-size: 0.8rem;
+
 }
